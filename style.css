@@ -1,0 +1,199 @@
+#title {
+  background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: 'Lora', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto Serif';
+}
+
+/* Download Buttons */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Roboto Slab';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 0 10px;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.container {
+  padding: 5% 5%;
+  border-radius: 20%;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Feautures Section */
+#symbol {
+  padding: 5% 10%;
+  margin-left: 35%;
+  align-items: center;
+  color: red;
+}
+
+#symbol:hover {
+  color: black;
+}
+
+#features {
+  background: #CDBE78;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background: #DAB88B;
+  color: white;
+}
+
+.carousel-item {
+  padding: 5% 8%;
+}
+
+.testimonial-image {
+  width: 40%;
+  height: 30%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  text-align: center;
+  background: #DAB88B;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  background: #CDBE78;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 100px;
+}
+
+.container3 {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.cardcontainer {
+  text-align: center;
+  padding: 0% 5% 5%;
+}
+
+.card {
+  margin-bottom: 5%;
+}
+
+/*Call to Action*/
+#cta {
+  text-align: center;
+  background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
+  padding: 8% 10%;
+}
+.cta-container {
+  padding: 10% 15%;
+}
+
+.ttext1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.titleimage{
+width: 60%;
+height: 90%;
+}
+
+/* Media Query */
+@media (max-width: 1028px; ) {
+  h2 {
+    font-size: 40px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#footer {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%
+}
+.footer-con {
+  padding: 5% 13%;
+}
+.copyright {
+  font-size: 1rem;
+}
+#faicon {
+  color: black;
+  font-size: 1rem;
+  padding: 4% 1%;
+}
+.link {
+  padding-bottom: 3%;
+  margin: 5px;
+}
+
+@media query {
+  .footer-con{
+    padding: 6% 15%;
+  }
+#faicon{
+  font-size: 1rem;
+}
+}
